@@ -1,0 +1,55 @@
+cp file1 file2 makes copy of file1, calls it file2
+cp ../other-repository/file1 . makes copy of file1 and names it the same
+mv file1 file2 can be used to rename a file, if staying in the same repository
+mv science.bak backups moves science.bak to folder backups
+mv myfile.txt ../ moves myfile.txt 
+rm tempfile.txt removes a file
+rmdir mtfolder remove empty directory
+rmdir -r fullfolder removes recursively directory
+cat science.txt contcatenates contents of file to screen
+less science.txt writes contents onto scieen 1 page at a time, using space to advance
+head science.txt writes first ten lines of file to screen
+head -5 science.txt specifies amount of lines to write to screen
+tail -15 science.txt writes last15 lines of file
+less science.txt
+	/science searches for the keyword science, press n for next occurrence
+grep -i To IGNORE CasE DiStiNctionS
+grep -v to display the lines that don't match
+grep -n precede matching lines w line number
+grep -c print only the total count of matched lines
+	you can use more than one at once
+wc -w for word count
+wc -l for line count
+command > file redirects output to file
+command >> file appends output
+command < file redirects input FROM file
+cat > list1
+	pear
+	banana
+	apple
+	Ctrl-D makes file called list1 containing list of fruit
+sort < bigList output sorted version of bigList
+sort < bigList > sList output sorted list to a file
+
+command1 | command2 command1 uses input from command2
+cat file1 file2 > file0 concatenates file1 file2 to file0
+ls ?ouse the ? will replace exactly 1 character in name
+ls list* lists files starting w list
+ls *list lists files ending w list
+whatis gives one-line description of the command
+apropos keyword will give you the commands w the keyword in their manual page header
+ls -lag lists access rights for all files
+df . reports on the space left on the file system
+du -s * displays summary of total size and the * means all files & directories
+gzip science.txt compresses file and appends file extension w .gz
+gunzip science.txt.gz expands file back to science.txt
+zcat science.txt.gz reads gzipped w/o uncompressing
+zcat science.txt.gz | less pipes output
+file classifies named files according to the type of data they contain
+file * reports all files in home directory
+diff file1 file2 compares contents of 2 files and displays the differences
+	lines beginning w < denotes file1, > denotes file2
+find . -name "*.txt" -print searches for all files w extension .txt starting w current directory and printing name of file to screen
+find . -size +1M -ls finds files over 1Mb in size, and display the result as a long listing
+scp file username@ipaddress:C:/filepath transfer file to silo machine
+
