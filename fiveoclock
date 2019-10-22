@@ -2,7 +2,7 @@
 import cgitb, cgi
 cgitb.enable()
 print "Content-Type: text/plain;charset=utf-8"
-print
+print "\n\n"
 
 from datetime import datetime
 from datetime import timedelta
