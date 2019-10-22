@@ -1,7 +1,13 @@
+#!/c/Python27/python
+import cgitb, cgi
+cgitb.enable()
 
-#from dataclasses import dataclass
+
+
+
 from datetime import datetime
 from datetime import timedelta
+print "Welcome to the Addition Quiz \n\n"
 class Time:
     def __init__(self, lname, sname, diffhour, diffmin=0):
         self.lname = lname
