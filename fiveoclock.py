@@ -1,10 +1,6 @@
 #!/c/Python27/python
 import cgitb, cgi
 cgitb.enable()
-
-
-
-
 from datetime import datetime
 from datetime import timedelta
 print "Welcome to the Addition Quiz \n\n"
