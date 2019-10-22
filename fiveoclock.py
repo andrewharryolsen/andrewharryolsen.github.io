@@ -1,6 +1,9 @@
 #!/c/Python27/python
 import cgitb, cgi
 cgitb.enable()
+print "Content-Type: text/plain;charset=utf-8"
+print
+
 from datetime import datetime
 from datetime import timedelta
 print "Welcome to the Addition Quiz \n\n"
