@@ -1,2 +1,38 @@
 /*copy from index.html
  * <link href="StyleSheet.css" rel="stylesheet" type="text/css">*/
+ body{
+
+                position: relative;
+                width: 100%;
+                color: white;
+                text-align: center;
+            }
+            .button {
+                background-color: #483D8B;
+                border: none;
+                color: white;
+                float: center;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                justify-content: center;
+            }
+            .button:hover {
+                background-color: #2F4F4F;
+}
+            #background{
+                background-image: url(PIA17563~large.jpg);
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 25px;
+                min-height: 1080px;
+                background-size: cover;
+                position: relative;}
+            h1 {
+                text-align: center;
+                color: white;
